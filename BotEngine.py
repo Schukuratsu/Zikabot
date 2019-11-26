@@ -1,8 +1,10 @@
 import Constants
+import AccountAgent
 
 
 def init(webdriver):
-    return
+    Constants.init()
+    AccountAgent.login(webdriver)
 
 
 def update(webdriver):

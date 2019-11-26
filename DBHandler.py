@@ -11,8 +11,8 @@ class DBHandler:
     DBNAME = Constants.DATABASE
     PASSWORD = Constants.PASS
     
-	#use this to instance your connection
-	@staticmethod
+    #use this to instance your connection
+    @staticmethod
     def get_mydb():
         if DBHandler.DBNAME == '':
             Constants.init()
